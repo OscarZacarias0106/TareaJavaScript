@@ -91,11 +91,12 @@ for(let i = names.length -1; i >= 0; i--) {
 }
 
 //funciones
-function greeting() {
+function greeting(name) {
+    console.log(name)
     console.log("Hello");
 }
 
-greeting();
+greeting("Markus");
 
 100000 // number
 -2.3
